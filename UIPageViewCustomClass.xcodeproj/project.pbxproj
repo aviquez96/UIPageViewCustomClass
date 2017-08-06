@@ -14,6 +14,7 @@
 		31C88A6F1F33C59F00C08C24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31C88A6D1F33C59F00C08C24 /* LaunchScreen.storyboard */; };
 		31C88A7A1F33C59F00C08C24 /* UIPageViewCustomClassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C88A791F33C59F00C08C24 /* UIPageViewCustomClassTests.swift */; };
 		31C88A851F33C59F00C08C24 /* UIPageViewCustomClassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C88A841F33C59F00C08C24 /* UIPageViewCustomClassUITests.swift */; };
+		31C88A931F33C5CC00C08C24 /* UIPageViewCustomClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C88A921F33C5CC00C08C24 /* UIPageViewCustomClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		31C88A801F33C59F00C08C24 /* UIPageViewCustomClassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIPageViewCustomClassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31C88A841F33C59F00C08C24 /* UIPageViewCustomClassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPageViewCustomClassUITests.swift; sourceTree = "<group>"; };
 		31C88A861F33C59F00C08C24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31C88A921F33C5CC00C08C24 /* UIPageViewCustomClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIPageViewCustomClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				31C88A641F33C59F00C08C24 /* AppDelegate.swift */,
 				31C88A661F33C59F00C08C24 /* ViewController.swift */,
+				31C88A921F33C5CC00C08C24 /* UIPageViewCustomClass.swift */,
 				31C88A681F33C59F00C08C24 /* Main.storyboard */,
 				31C88A6B1F33C59F00C08C24 /* Assets.xcassets */,
 				31C88A6D1F33C59F00C08C24 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				31C88A671F33C59F00C08C24 /* ViewController.swift in Sources */,
 				31C88A651F33C59F00C08C24 /* AppDelegate.swift in Sources */,
+				31C88A931F33C5CC00C08C24 /* UIPageViewCustomClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

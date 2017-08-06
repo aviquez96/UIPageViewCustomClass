@@ -1,26 +1,75 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="1ij-rs-zy5">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Page View Custom Class-->
+        <scene sceneID="4e9-rC-q4g">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" pageSpacing="2" navigationOrientation="horizontal" spineLocation="none" id="1ij-rs-zy5" customClass="UIPageViewCustomClass" customModule="UIPageViewCustomClass" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qK5-y4-LlQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-111" y="110"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="k9l-ao-aeE">
+            <objects>
+                <viewController restorationIdentifier="FirstVC" storyboardIdentifier="FirstVC" id="ICC-er-Vnu" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="90E-X8-ZAI"/>
+                        <viewControllerLayoutGuide type="bottom" id="vNn-ML-wL0"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="Ugf-9x-S30">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zwN-Pt-jJe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="564" y="109"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="T6e-DS-h0p">
+            <objects>
+                <viewController restorationIdentifier="SecondVC" storyboardIdentifier="SecondVC" id="eoo-qQ-qGd" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aIR-kc-i2v"/>
+                        <viewControllerLayoutGuide type="bottom" id="kXi-H2-dXt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="F1F-CQ-3Ko">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sVe-RU-gsV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1223" y="108"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="PHU-xp-8oF">
+            <objects>
+                <viewController restorationIdentifier="ThirdVC" storyboardIdentifier="ThirdVC" id="sa1-i5-QvS" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dkC-oC-Y3L"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ex2-1P-s7A"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uSs-Cd-Qd3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jes-vc-pgz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1897" y="107"/>
         </scene>
     </scenes>
 </document>
